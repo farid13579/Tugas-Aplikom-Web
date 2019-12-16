@@ -1,0 +1,188 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-body{
+    margin: auto;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.navbar-menu{
+    float: right;
+    margin: 10px 0;
+    display: flex;
+}
+
+.navbar-body span{
+    font-size: 32px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.navbar-body li{
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.banner-container,
+.profile-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+.banner-body{
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background-image: url(venom-logo-4k.jpg);
+    background-size: 100% 100%;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-color{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 500px;
+    text-align: center;
+    padding: 210px 30px;
+    color: white;
+}
+
+.banner-color h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.profile-color{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.253);
+    height: 600px;
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+}
+
+.profile-body{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    background-position-x: 235px;
+    background-position-y: 40px;
+    background-image: url(20190905_222938.jpg);
+    background-size: 370px 500px;
+    background-repeat: no-repeat;
+}
+
+.profile-tempat{
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+.profile-foto{
+    width: 50%;
+    margin-left: 30px;
+    height: 500px;
+    border: solid 10px white;
+}
+
+.profile-text{
+    width: 40%;
+    text-align: left;
+    font-size: 23px;
+    padding: 100px 120px;
+}
+
+.skill-body{
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+    background-image: url(usa-1777986.jpg);
+    background-size: 100% 100%;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.skill-color{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 600px;
+    text-align: center;
+    padding: px 10px;
+    color: white;
+}
+
+.skill-tempat{
+    width: 60%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.skill-tempat span{
+    font-size: 60px;
+}
+
+.skill-tempat h2,
+.skill-tempat h3,
+.skill-tempat h4{
+    border: solid 6px rgb(255, 255, 255);
+    background-color: rgb(94, 140, 224);
+    padding: 10px 20px;
+    margin: 50px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.skill-tempat h2:hover,
+.skill-tempat h3:hover,
+.skill-tempat h4:hover{
+    background: none;
+    transition: 0.5s;
+}
+
+.copyright{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(61, 59, 59);
+}
+

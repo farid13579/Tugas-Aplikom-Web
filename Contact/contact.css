@@ -1,0 +1,115 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-body{
+    margin: auto;
+    width: 80%;
+    padding: 15px 0;
+}
+
+.navbar-menu{
+    float: right;
+    margin: 10px 0;
+    display: flex;
+}
+
+.navbar-body span{
+    font-size: 32px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.navbar-body li{
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.banner-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+.banner-body{
+    width: 100%;
+    overflow: hidden;
+    height: 720px;
+    background-image: url(venom-logo-4k.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.banner-color{
+    width: 100%;
+    background-color: rgba(53, 53, 53, 0.582);
+    height: 720px;
+    text-align: center;
+    padding: 200px 0px;
+    color: white;
+    font-family: 'Alata', sans-serif;
+}
+
+.banner-color h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.banner-content{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.banner-contact{
+    width: 50%;
+    padding: 0;
+    margin: auto;
+}
+
+.banner-contact h2{
+    margin-top: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.copyright{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(61, 59, 59);
+}
+
